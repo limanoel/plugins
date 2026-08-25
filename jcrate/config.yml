@@ -1,0 +1,57 @@
+# JustCrates Configuration
+
+
+messages:
+  prefix: "&8[&bJustCrates&8] "
+  no-permission: "&cDazu hast du keine Rechte!"
+  crate-created: "&aKiste '&e%crate%&a' erfolgreich erstellt!"
+  crate-deleted: "&cKiste '&e%crate%&c' wurde gelöscht."
+  key-given: "&aDu hast &e%player% &a%amount%x Schlüssel für '&e%crate%&a' gegeben."
+  key-created: "&aSchlüssel für '&e%crate%&a' ins Inventar gelegt."
+  link-item-given: "&eKlicke auf einen Block, um ihn mit der Kiste '&b%crate%&e' zu verlinken."
+  linked-success: "&aBlock erfolgreich mit Kiste '&e%crate%&a' verlinkt!"
+  crate-opened: "&aKiste geöffnet! Gewonnen: &e%reward%"
+  no-key: "&cDu benötigst einen passenden Schlüssel!"
+  rewards-saved: "&aBelohnungen für '&e%crate%&a' wurden gespeichert!"
+  config-reloaded: "&aConfig und Kisten wurden neu geladen!"
+
+# Action Bar wird Spielern angezeigt, die sich in der Nähe einer Kiste befinden
+action-bar:
+  # %crate% = Kistenname, %keys% = Anzahl eigener Schlüssel, %uses% = Öffnungen gesamt
+  near-crate: "&b&l%crate% &7| &e%keys%x Schlüssel"
+
+confirm-gui:
+  title: "&4Kiste löschen: &c%crate%?"
+  confirm-item:
+    material: LIME_WOOL
+    name: "&a&lLÖSCHEN BESTÄTIGEN"
+  cancel-item:
+    material: RED_WOOL
+    name: "&c&lABBRECHEN"
+
+link-tool:
+  material: BLAZE_ROD
+  name: "&b&lCrate Linker"
+  lore:
+    - "&7Rechtsklick auf einen Block,"
+    - "&7um ihn mit der Kiste zu verlinken."
+
+holograms:
+  enabled: true
+  height-offset: 1.5
+  lines:
+    - "&b&l%crate%"
+    - "&7Rechtsklick zum Öffnen"
+
+
+# Accept/Decline Items für Bestätigungen
+accept-item:
+  material: LIME_WOOL
+  name: "&a&lANNEHMEN"
+  custom-model-data: 0
+
+decline-item:
+  material: RED_WOOL
+  name: "&c&lABLEHNEN"
+  custom-model-data: 0
+

@@ -1,0 +1,14 @@
+name: JustCrates
+version: 1.0.0
+main: dev.limanoel.justCrates.JustCrates
+api-version: '1.21'
+author: Limanoel
+description: JustCrates Plugin
+commands:
+  jcrates:
+    description: Hauptbefehl für JustCrates
+    permission: justcrates.admin
+    aliases: [crate, crates]
+permissions:
+  justcrates.admin:
+    default: op
