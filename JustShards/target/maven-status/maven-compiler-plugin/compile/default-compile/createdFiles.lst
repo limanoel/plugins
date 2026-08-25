@@ -1,0 +1,10 @@
+dev\limanoel\justshards\commands\CrateShopCommand.class
+dev\limanoel\justshards\placeholder\PointsPlaceholder.class
+dev\limanoel\justshards\listener\AFKMoveListener.class
+dev\limanoel\justshards\commands\AFKCommand.class
+dev\limanoel\justshards\LucoPointPlugin.class
+dev\limanoel\justshards\RegionSelect.class
+dev\limanoel\justshards\commands\Points.class
+dev\limanoel\justshards\commands\ReloadCommand.class
+dev\limanoel\justshards\shop\CrateShopManager.class
+dev\limanoel\justshards\shop\CrateShopListener.class

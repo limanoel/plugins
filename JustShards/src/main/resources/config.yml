@@ -1,0 +1,49 @@
+region:
+  world: world
+
+  pos1:
+    x: 0
+    y: 60
+    z: 0
+
+  pos2:
+    x: 10
+    y: 80
+    z: 10
+
+
+message: "&x&5&A&B&F&D&9&lSHARDS ➔ &f +1 Shard für &d%player%&f! &8(&7%shards_amount%&8)"
+
+shards-per-interval: 1
+
+default-delay-seconds: 60
+
+vip-delay-seconds: 30
+
+
+afk-location:
+   world: world
+   x: 0
+   y: 100
+   z: 0
+
+afk-region:
+   world: world
+   pos1:
+     x: -50
+     y: 90
+     z: -50
+   pos2:
+     x: 50
+     y: 110
+     z: 50
+
+afk-message: "&x&5&A&B&F&D&9&lSHARDS ➔ &f Du wirst in &d%time%s&f zum AFK-Teleport teleportiert!"
+afk-cancel: "&x&5&A&B&F&D&9&lSHARDS ➔ &cTeleport abgebrochen, da du dich bewegt hast!"
+afk-teleport: "&x&5&A&B&F&D&9&lSHARDS ➔ &f Du wurdest in den AFK-Bereich teleportiert!"
+
+
+crateshop:
+  title: "&x&5&A&B&F&D&9&lSHARDS ➔ &9Shop"
+
+  size: 9

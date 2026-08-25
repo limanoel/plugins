@@ -1,0 +1,49 @@
+name: JustShards
+description: $description
+version: '${version}'
+
+main: dev.limanoel.justshards.LucoPointPlugin
+api-version: '1.21'
+load: POSTWORLD
+
+authors: [ JUST DEVELOPMENT ]
+
+commands:
+  afk:
+    description: AFK System
+  shards:
+    description: Shards Command
+  shardshopadmin:
+    description: Admin ShardShop
+    permission: shardshop.admin
+  store:
+    description: Öffne den ShardShop
+    permission: shardshop.use
+  shardreload:
+    description: Reload alle Configs
+    permission: shards.reload
+  shardadmin:
+    description: Verwalte die Shards der Spieler.
+    permission: shards.admin
+    usage: /shardadmin set <Anzahl> <Spieler>
+
+permissions:
+  shardshop.admin:
+    description: Berechtigung für Crate/Shop Admin
+    default: op
+  shardshop.use:
+    description: PointShop benutzen
+    default: true
+  shards.admin:
+    description: Admin-Berechtigung für Shards (set etc.)
+    default: op
+  shards.delay.fast:
+    description: Schnellere Shard-Delay für VIPs
+    default: true
+  lucopoint.reload:
+    description: Reload alle Configs
+    default: op
+  shards.reload:
+    description: Reload alle Configs (shards)
+    default: op
+
